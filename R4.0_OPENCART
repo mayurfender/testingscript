@@ -33,6 +33,9 @@ Truncate table EMP_DTS_TRG ;
  select * from EMP_DTS_SRC1;--Source table
  select * from EMP_DTS_SRC2; --Source table 
  select * from EMP_DTS_SRC3; --Source table 
+ 
+ 
+ 
  Select * from EMP_DTS_TRG ;  --target table
 
  --2) To validate record count between EMP_DTS_SRC1 and EMP_DTS_TRG. 
@@ -336,3 +339,8 @@ Update EMP_DTS_SRC1 set HIRE_DATE = '2021-03-31' where EMP_CODE = 'EMP01' ;
  
  ----Update salary in source table 
  Update EMP_DTS_SRC1 set HIRE_DATE = '1920-03-31' where EMP_CODE = 'EMP01' ;
+ 
+ 
+ 
+ 
+ nhefggdhhhjjjjjjj
